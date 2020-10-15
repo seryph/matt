@@ -28,3 +28,26 @@ img {
     font-size: 3rem;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #title {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    font-size: 1rem;
+}
+
+    img {
+        width: 80%;
+        display: block;
+        margin: auto;
+    }
+    
+  }
