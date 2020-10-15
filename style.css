@@ -1,0 +1,30 @@
+@font-face {
+    font-family: Andalemo;
+    src: url('./fonts/ANDALEMO.TTF');
+  }
+
+
+body {
+    background: #6A6A6A;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+#title {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    font-size: 5rem;
+}
+
+#play {
+    text-align: center;
+    font-family: Andalemo, sans-serif;
+    color: #6ADF56;
+    font-weight: 300;
+    font-size: 3rem;
+    cursor: pointer;
+}
